@@ -29,29 +29,29 @@ const Navbar = () => {
         <div
           className='collapse navbar-collapse'
           id='navbarCollapse'>
-          <ul class='navbar-nav ml-auto'>
-            <li class='nav-item'>
+          <ul className='navbar-nav ml-auto'>
+            <li className='nav-item'>
               <a href='#home' class='nav-link'>
                 Driver
               </a>
             </li>
-            <li class='nav-item'>
+            <li className='nav-item'>
               <a href='#about' class='nav-link'>
                 Rider
               </a>
             </li>
-            <li class='nav-item'>
-              <a href='#authors' class='nav-link'>
+            <li className='nav-item'>
+              <a href='#authors' className='nav-link'>
                 Business
               </a>
             </li>
-            <li class='nav-item'>
-              <a href='#contact' class='nav-link'>
+            <li className='nav-item'>
+              <a href='#contact' className='nav-link'>
                 Log in
               </a>
             </li>
-            <li class='nav-item'>
-              <a href='#contact' class='nav-link'>
+            <li className='nav-item'>
+              <a href='#contact' className='nav-link'>
                 Sign up
               </a>
             </li>

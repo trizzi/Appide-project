@@ -1,0 +1,33 @@
+#showcase {
+  position: relative;
+  min-height: 600px;
+}
+#showcase .primary-overlay {
+  position: absolute;
+  margin-top: 6rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#showcase img {
+  display: block;
+  position: relative;
+}
+
+#showcase #img {
+  display: block;
+  position: absolute;
+  max-width: 25%;
+  height: auto;
+  margin-top: -10rem;
+  right: 24%;
+}
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+}
